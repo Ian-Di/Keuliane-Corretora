@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.button a{
+    display: flex;
+    padding: 10px 20px;
+
+    text-decoration: none;
+    color: #B20B6D;
+    font-size: 3vh;
+    font-family: "Yrsa", serif;
+
+    background-color: #F0DEBB;
+    border-radius: 2px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.066);
+}
+
+.button a:hover{
+    color: #F0DEBB;
+    font-family: "Yrsa", serif;
+
+    background-color: #B20B6D;
+    transition: 0.5s;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    align-items: center;
+    padding: 80px 0px 0px 0px;
+
+
+
+    background-image: url(./assts/Mask\ group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header .txt-header{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 550px;
+}
+
+.header .txt-header h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 3vh;
+    letter-spacing: 3px;
+    color: #F0DEBB;
+
+    padding: 0px 3px;
+    box-shadow: -2px 0px #F0DEBB;
+}
+
+.header .txt-header h1{
+    font-family: "Yrsa", serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 6vh;
+    color: #ffff;
+}
+
+.header .txt-header p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 3vh;
+    color: #ffff;
+}
+
+.header .txt-header h1 strong{
+    font-weight: 500;
+    color: #F0DEBB;
+}
+
+.header .txt-header p strong{
+    font-weight: 500;
+}
+
+.header .img-header img{
+    display: flex;
+    height: 80vh;
+}
+
+.header .txt-header .button{
+    display: flex;
+    padding-top: 40px;
+}
+
+.letreiro{
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 20px 0px;
+    
+
+   background-color: #F0DEBB;
+}
+
+.letreiro img{
+    margin: 0px 40px;
+    position: relative;
+
+    animation: move-left 10s infinite linear;
+}
+
+@keyframes move-left {
+    from {
+      left: 0%;
+    }
+    to {
+      left: -60%;
+    }
+}
