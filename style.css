@@ -26,6 +26,28 @@
     transition: 0.5s;
 }
 
+.button-mob a{
+    display: none;
+    padding: 10px 20px;
+
+    text-decoration: none;
+    color: #B20B6D;
+    font-size: 3vh;
+    font-family: "Yrsa", serif;
+
+    background-color: #F0DEBB;
+    border-radius: 2px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.066);
+}
+
+.button-mob a:hover{
+    color: #F0DEBB;
+    font-family: "Yrsa", serif;
+
+    background-color: #B20B6D;
+    transition: 0.5s;
+}
+
 .header{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -44,7 +66,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 550px;
+    width: 650px;
 }
 
 .header .txt-header h3{
@@ -110,6 +132,382 @@
     animation: move-left 10s infinite linear;
 }
 
+.homes .carousel-inner{
+    display: flex;
+    height: 700px;
+}
+
+.homes .carousel-control-prev-icon{
+    display: flex;
+    background-color: #F0DEBB;
+    padding: 25px;
+    border-radius: 100%;
+}
+
+.homes .carousel-control-next-icon{
+    display: flex;
+    background-color: #F0DEBB;
+    padding: 25px;
+    border-radius: 100%;
+}
+
+.homes .carousel-caption{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 450px;
+    gap: 30px;
+
+    text-align: left;
+    font-size: 4vh;
+
+}
+
+.homes .title-home h1{
+    display: block;
+    position: absolute;
+    transform: translate(600px, 30px);
+    font-family: "Yrsa", serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 6vh;
+    color: #ffff;
+}
+
+.homes .carousel-caption h1{
+    font-family: "Yrsa", serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 6vh;
+    color: #F0DEBB;
+}
+
+.homes .carousel-caption p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 3vh;
+    color: #ffff;
+}
+
+.homes .carousel-caption strong{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 3vh;
+    color: #ffff;
+}
+
+.homes .button{
+    display: flex;
+}
+
+.homes .carousel-inner .carousel-item:nth-child(1){
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./assts/home1.png);
+}
+
+.homes .carousel-inner .carousel-item:nth-child(2){
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./assts/home2.png);
+}
+
+.homes .carousel-inner .carousel-item:nth-child(3){
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./assts/home3.png);
+}
+
+.homes .carousel-inner .carousel-item:nth-child(4){
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./assts/home4.png);
+}
+
+.acess-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    background-color: #F0DEBB;
+}
+
+.acess-part h1{
+    font-family: "Yrsa", serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 6vh;
+    color: #B20B6D;
+}
+
+.acess-part .button a{
+    background-color: #B20B6D;
+    color: #F0DEBB;
+}
+
+.acess-part .button a:hover{
+    background-color: #e9d09e;
+    color: #B20B6D;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+    align-items: center;
+    background-color: #B20B6D;
+}
+
+.about .card-about{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 600px;
+
+    border-radius: 20px;
+    background-color: #F0DEBB;
+}
+
+.about .card-about .txt-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    padding: 30px;
+}
+
+.about .card-about .txt-about h1{
+    font-family: "Yrsa", serif;
+    font-weight: 500;
+    font-size: 5vh;
+    color: #B20B6D;
+}
+
+.about .card-about .txt-about p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 2.5vh;
+    color: #B20B6D;
+}
+
+.about .card-about .txt-about img{
+    height: 7vh;
+}
+
+
+.about .img-about{
+    display: flex;
+    background-image: url(./assts/Mask2\ group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.about .button a{
+    background-color: #B20B6D;
+    color: #F0DEBB;
+}
+
+.about .button a:hover{
+    background-color: #e9d09e;
+    color: #B20B6D;
+}
+
+.feedback{
+    display: flex;
+    flex-direction: column;
+    padding: 8vh;
+    gap: 12vh;
+    background-color: #B20B6D;
+}
+
+.feedback .title-fdb h1{
+    font-family: "Yrsa", serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 6vh;
+    color: #F0DEBB;
+}
+
+.cards-feedback{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cards-feedback .card{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    gap: 80px;
+    
+    width: 330px;
+    height: 430px;
+
+    border-radius: 20px;
+    background-color: #F0DEBB;
+}
+
+.cards-feedback .card p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 2.3vh;
+    color: #B20B6D;
+    text-align: center;
+}
+
+.cards-feedback .card .img-person img{
+    position: absolute;
+    padding: 20px;
+    width: 15vh;
+    background-color: #B20B6D;
+    border-radius: 100%;
+    transform: translate(75px,-90px);
+}
+
+.cards-feedback .card img{
+    width: 15vh;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-items: center;
+    padding: 90px 0px;
+
+    background-image: url(./assts/Mask3\ group.png);
+    background-size: cover;
+}
+
+.contact .txt-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+    width: 550px;
+}
+
+.contact .txt-contact h1{
+    font-family: "Yrsa", serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 6.5vh;
+    color: #fff;
+}
+
+.contact .txt-contact h1 strong{
+    font-family: "Yrsa", serif;
+    font-style: italic;
+    font-weight: 600;
+    color: #F0DEBB;
+}
+
+.contact .txt-contact p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 2.5vh;
+    color: #fff;
+}
+
+
+.contact .txt-contact p strong{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.contact .footer-txt-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.contact .footer-txt-contact h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 2.5vh;
+    color: #fff;
+}
+
+.contact .apps{
+    display: flex;
+    gap: 3vh;
+}
+
+.contact .formulário{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+
+    background-color: #B20B6D;
+    border-radius: 20px;
+}
+
+.contact .formulário form{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    gap: 4vh;
+}
+
+.contact .formulário form div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .formulário form h1{ 
+    display: flex;
+    place-self: center;
+
+    font-family: "Yrsa", serif;
+    font-weight: 500;
+    font-size: 4.5vh;
+    color: #F0DEBB;
+}
+
+.contact .formulário form input{ 
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #F0DEBB;
+}
+
+.contact .formulário form button{ 
+    padding: 2.5px;
+    width: 20vh;
+    border: 3px solid #F0DEBB;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0);
+
+    font-size: 2.5vh;
+    color: #F0DEBB;
+}
+
+.contact .formulário form button:hover{ 
+    transition: 0.5s;
+    border: 3px solid #F0DEBB;
+    background-color: #F0DEBB;
+    color: #B20B6D;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    background-color: #F0DEBB;
+}
+
+.footer h1{
+    font-size: 3vh;
+    font-family: "Yrsa", serif;
+    font-style: italic;
+    font-weight: 500;
+    color: #B20B6D;
+}
+
 @keyframes move-left {
     from {
       left: 0%;
@@ -117,4 +515,21 @@
     to {
       left: -60%;
     }
+}
+
+/* Personalizar a barra de rolagem */
+::-webkit-scrollbar {
+    width: 5px; /* Largura da barra */
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #B20B6D; /* Cor da parte rolável */
+    border-radius: 2px; /* Borda arredondada */
+}
+
+
+::-webkit-scrollbar-track {
+    background: #F0DEBB; /* Cor do fundo */
+    border-radius: 10px;
 }
