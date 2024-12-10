@@ -157,8 +157,6 @@
     height: 500px;
     gap: 30px;
     text-align: left;
-    font-size: 4vh;
-
 }
 
 .homes .title-home h1{
@@ -504,6 +502,286 @@
     font-style: italic;
     font-weight: 500;
     color: #B20B6D;
+}
+
+@media screen and (width < 560px){    
+    .button a{
+        display: none;
+    }
+
+    .button-mob a{
+        display: inline;
+        padding: 10px 20px;
+    
+        text-decoration: none;
+        color: #B20B6D;
+        font-size: 3vh;
+        font-family: "Yrsa", serif;
+    
+        background-color: #F0DEBB;
+        border-radius: 2px;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.066);
+    }
+    
+    .header{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        place-items: center;
+        align-items: right;
+        padding: 80px 0px 0px 20px;
+    
+    
+    
+        background-image: url(./assts/capa-mob.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .header .txt-header{
+        width: 350px;
+    }
+    
+    .header .txt-header h3{
+        font-size: 2.5vh;
+    }
+    
+    .header .txt-header h1{
+        font-size: 4.5vh;
+    }
+    
+    .header .txt-header p{
+        font-size: 2.5vh;
+    }
+    
+    .header .img-header img{
+        display: flex;
+        height: 45vh;
+    }
+    
+    .header .txt-header .button{
+        display: none;
+    }
+
+    .header img{
+        height: 10vh;
+    }
+    
+    .letreiro img{
+        height: 8vh;
+    }
+    
+    .homes .carousel-inner{
+        display: flex;
+        height: 600px;
+    }
+    
+    .homes .carousel-control-prev-icon{
+        display: none;
+    }
+    
+    .homes .carousel-control-next-icon{
+        display: none;
+    }
+    
+    .homes .carousel-caption{
+        height: 450px;
+        width: 330px;
+    }
+    
+    .homes .title-home h1{
+        transform: translate(45px, 30px);
+        font-size: 4.5vh;
+    }
+    
+    .homes .carousel-caption h1{
+        font-size: 4.5vh;
+    }
+    
+    .homes .carousel-caption p{
+        font-size: 2.5vh;
+    }
+    
+    .homes .carousel-caption strong{
+        font-weight: 600;
+        font-size: 2.5vh;
+    }
+    
+    .homes .button{
+        display: flex;
+    }
+    
+    .homes .carousel-inner .carousel-item:nth-child(1){
+        background-image: url(./assts/apartamentomob-1.png);
+    }
+    
+    .homes .carousel-inner .carousel-item:nth-child(2){
+        background-image: url(./assts/apartamentomob-1-1.png);
+    }
+    
+    .homes .carousel-inner .carousel-item:nth-child(3){
+        background-image: url(./assts/apartamentomob-2.png);
+    }
+    
+    .homes .carousel-inner .carousel-item:nth-child(4){
+        background-image: url(./assts/apartamentomob-2-1.png);
+    }
+    
+    .acess-part{
+        gap: 5px;
+    }
+    
+    .acess-part h1{
+        font-size: 4.5vh;
+    }
+
+    .acess-part .button-mob a{
+        background-color: #B20B6D;
+        color: #F0DEBB;
+    }
+    
+    .acess-part .button-mob a:hover{
+        background-color: #e9d09e;
+        color: #B20B6D;
+    }
+
+    .about{
+        padding: 70px 10px;
+    }
+    
+    .about .card-about{
+        flex-direction: column;
+        width: 400px;
+        height: 760px;
+    }
+    
+    .about .card-about .txt-about{
+        flex-direction: column;
+        text-align: justify;
+    }
+    
+    .about .card-about .txt-about h1{
+        font-size: 4.5vh;
+    }
+    
+    .about .card-about .txt-about p{
+        font-size: 2.5vh;
+    }
+    
+    .about .card-about .txt-about img{
+        height: 6vh;
+    }
+    
+    .about .img-about{
+        display: flex;
+        background-image: url(./assts/Mask2\ group.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    .about .img-about img{
+        display: flex;
+        height: 60vh;
+    }
+    
+    .about .button-mob a{
+        background-color: #B20B6D;
+        color: #F0DEBB;
+    }
+    
+    .about .button-mob a:hover{
+        background-color: #e9d09e;
+        color: #B20B6D;
+    }
+    
+    .feedback{
+        padding: 20px;
+        gap: 5vh;
+    }
+    
+    .feedback .title-fdb h1{
+        font-size: 5vh;
+    }
+    
+    .cards-feedback{
+        display: flex;
+        place-self: center;
+        flex-direction: column;
+    }
+    
+    .cards-feedback .card{
+        gap: 40px;
+        
+        width: 330px;
+        height: 230px;
+    }
+    
+    .cards-feedback .card p{
+        font-size: 2.3vh;
+        text-align: left;
+    }
+    
+    .cards-feedback .card .img-person img{
+        padding: 10px;
+        width: 12vh;
+        transform: translate(-50px,-30px);
+    }
+    
+    .cards-feedback .card img{
+        width: 15vh;
+    }
+    
+    .contact{
+        grid-template-columns: repeat(1,1fr);
+        padding: 50px 20px;
+        gap: 3vh;
+    
+        background-image: url(./assts/Mask-footer-group.png);
+    }
+    
+    .contact .txt-contact{
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+        width: 330px;
+    }
+    
+    .contact .txt-contact h1{
+        text-align: center;
+        font-size: 4.5vh;
+    }
+    
+    .contact .txt-contact p{
+        text-align: center;
+        font-size: 2.5vh;
+    }
+    
+    .contact .footer-txt-contact{
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
+
+    .contact .formulário{
+        padding: 40px 10px;
+    }
+    
+    .contact .formulário form{
+        width: 360px;
+        gap: 4vh;
+    }
+    
+    .contact .formulário form h1{ 
+        font-size: 4.5vh;
+    }
+    
+    .contact .formulário form input{ 
+        width: 26vh;
+    }
+    
+    .footer h1{
+        font-size: 2.5vh;
+    }
 }
 
 @keyframes move-left {
