@@ -589,7 +589,7 @@
     }
     
     .homes .title-home h1{
-        transform: translate(45px, 30px);
+        transform: translate(35px, 30px);
         font-size: 4.5vh;
     }
     
@@ -631,7 +631,7 @@
     }
     
     .acess-part h1{
-        font-size: 4.5vh;
+        font-size: 3.5vh;
     }
 
     .acess-part .button-mob a{
@@ -652,7 +652,7 @@
         flex-direction: column;
         justify-content: space-between;
         width: 380px;
-        height: 1100px;
+        height: 800px;
     }
     
     .about .card-about .txt-about{
@@ -725,8 +725,8 @@
     
     .cards-feedback .card .img-person img{
         padding: 10px;
-        width: 12vh;
-        transform: translate(-80px,-40px);
+        width: 10vh;
+        transform: translate(-65px,-40px);
     }
     
     .cards-feedback .card img{
@@ -778,11 +778,11 @@
     }
     
     .contact .formulário form input{ 
-        width: 17vh;
+        width: 23vh;
     }
     
     .footer h1{
-        font-size: 2.5vh;
+        font-size: 2.0vh;
     }
 }
 
