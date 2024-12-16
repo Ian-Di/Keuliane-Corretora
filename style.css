@@ -650,8 +650,9 @@
     
     .about .card-about{
         flex-direction: column;
-        width: 400px;
-        height: 760px;
+        justify-content: space-between;
+        width: 380px;
+        height: 1100px;
     }
     
     .about .card-about .txt-about{
@@ -681,7 +682,7 @@
 
     .about .img-about img{
         display: flex;
-        height: 60vh;
+        height: 45vh;
     }
     
     .about .button-mob a{
@@ -707,13 +708,14 @@
         display: flex;
         place-self: center;
         flex-direction: column;
+        gap: 50px;
     }
     
     .cards-feedback .card{
         gap: 40px;
         
         width: 330px;
-        height: 230px;
+        height: 300px;
     }
     
     .cards-feedback .card p{
@@ -724,7 +726,7 @@
     .cards-feedback .card .img-person img{
         padding: 10px;
         width: 12vh;
-        transform: translate(-50px,-30px);
+        transform: translate(-80px,-40px);
     }
     
     .cards-feedback .card img{
@@ -733,7 +735,7 @@
     
     .contact{
         grid-template-columns: repeat(1,1fr);
-        padding: 50px 20px;
+        padding: 50px 5px;
         gap: 3vh;
     
         background-image: url(./assts/Mask-footer-group.png);
@@ -776,7 +778,7 @@
     }
     
     .contact .formulário form input{ 
-        width: 26vh;
+        width: 17vh;
     }
     
     .footer h1{
