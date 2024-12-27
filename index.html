@@ -238,7 +238,7 @@
                 <h3>Tente por aqui tambem</h3>
                 <div class="apps">
                     <div class="app" style="padding: 5px; background: #45FF6A; border-radius: 100%;">
-                        <a href="https://api.whatsapp.com/send?phone=86981926298">
+                        <a href="https://web.whatsapp.com/send?phone=8681926298">
                             <img src="./assts/icons8-whatsapp-96.png" alt="">
                         </a>
                     </div>
@@ -251,14 +251,14 @@
             </div>
         </div>
         <div class="formulário">
-            <form action="">
+            <form action="https://formsubmit.co/" method="POST">
                 <h1>Entre em contato</h1>
                 <div>
-                    <input type="text" placeholder="Nome:">
-                    <input type="text" placeholder="E-mail:">
+                    <input type="text" name="name" placeholder="Nome:" required>
+                    <input type="email" name="email" placeholder="E-mail:" required>
                 </div>
-                <textarea rows="7" placeholder="Assunto"  style="resize: none; padding: 10px; border-radius: 10px; background-color: #F0DEBB;"></textarea>
-                <button>Enviar</button>
+                <textarea name="message" rows="7" placeholder="Assunto"  style="resize: none; padding: 10px; border-radius: 10px; background-color: #F0DEBB;"></textarea>
+                <button type="submit">Enviar</button>
             </form>
         </div>
     </div>
