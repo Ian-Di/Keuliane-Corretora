@@ -48,6 +48,10 @@
     transition: 0.5s;
 }
 
+.botton-flut{
+    display: none;
+}
+
 .header{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -205,19 +209,13 @@
 .homes .carousel-inner .carousel-item:nth-child(2){
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(./assts/ap1-1.png);
+    background-image: url(./assts/ap2-0.png);
 }
 
 .homes .carousel-inner .carousel-item:nth-child(3){
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(./assts/ap2-0.png);
-}
-
-.homes .carousel-inner .carousel-item:nth-child(4){
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(./assts/ap2-1.png);
+    background-image: url(./assts/ap3-0.png);
 }
 
 .acess-part{
@@ -523,6 +521,21 @@
         box-shadow: 5px 5px rgba(0, 0, 0, 0.066);
     }
     
+    .botton-flut{
+        display: block;
+        position: fixed;
+        top: 590px;
+        right: 30px;
+        background: #45FF6A;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+    .botton-flut img{
+        padding: 5px;
+        height: 7vh;
+    }
+
     .header{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -615,15 +628,11 @@
     }
     
     .homes .carousel-inner .carousel-item:nth-child(2){
-        background-image: url(./assts/apartamentomob-1-1.png);
-    }
-    
-    .homes .carousel-inner .carousel-item:nth-child(3){
         background-image: url(./assts/apartamentomob-2.png);
     }
     
-    .homes .carousel-inner .carousel-item:nth-child(4){
-        background-image: url(./assts/apartamentomob-2-1.png);
+    .homes .carousel-inner .carousel-item:nth-child(3){
+        background-image: url(./assts/apartamentomob-3.png);
     }
     
     .acess-part{
