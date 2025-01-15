@@ -3,6 +3,9 @@
     margin: 0;
 }
 
+body{
+    background-color: #B20B6D;
+}
 
 .button a{
     display: flex;
