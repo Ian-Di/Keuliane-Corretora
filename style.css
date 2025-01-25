@@ -221,6 +221,12 @@ body{
     background-image: url(./assts/ap3-0.png);
 }
 
+.homes .carousel-inner .carousel-item:nth-child(4){
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./assts/ap4-0.png);
+}
+
 .acess-part{
     display: flex;
     flex-direction: column;

@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #B20B6D;
+}
+
+.button a{
+    display: flex;
+    padding: 10px 20px;
+    width: 215px;
+    text-decoration: none;
+    color: #B20B6D;
+    font-size: 3vh;
+    font-family: "Yrsa", serif;
+
+    background-color: #F0DEBB;
+    border-radius: 2px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.066);
+}
+
+.button a:hover{
+    color: #F0DEBB;
+    font-family: "Yrsa", serif;
+
+    background-color: #B20B6D;
+    transition: 0.5s;
+}
+
+.button-mob a{
+    display: none;
+    padding: 10px 20px;
+
+    text-decoration: none;
+    color: #B20B6D;
+    font-size: 3vh;
+    font-family: "Yrsa", serif;
+
+    background-color: #F0DEBB;
+    border-radius: 2px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.066);
+}
+
+.button-mob a:hover{
+    color: #F0DEBB;
+    font-family: "Yrsa", serif;
+
+    background-color: #B20B6D;
+    transition: 0.5s;
+}
+
+.p1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 600px;
+}
+
+.p1 .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+}
+
+.p1 .text h1{
+    font-family: "Yrsa", serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 6vh;
+    color: #F0DEBB;
+}
+
+.p1 .text p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 3vh;
+    color: #ffff;
+}
+
+.p1 .home{
+    display: flex;
+    background-image: url(../assts/image1-ap4.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.p2{
+   display: grid;
+   grid-template-columns: repeat(2,1fr); 
+   height: 400px;
+}
+
+.p2 .home1{
+    display: flex;
+    background-image: url(../assts/image2-ap4.png);
+    background-position: center;
+    background-size: cover;
+}
+.p2 .home2{
+    display: flex;
+    background-image: url(../assts/image3-ap4.png);
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (width < 560px){
+    .p1{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        height: 1200px;
+    }
+    
+    .p1 .text{
+        padding-left: 20px;
+    }
+
+    .p2{
+       display: grid;
+       grid-template-columns: repeat(1,1fr); 
+       height: 600px;
+    }
+}
+
+/* Personalizar a barra de rolagem */
+::-webkit-scrollbar {
+    width: 5px; /* Largura da barra */
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #B20B6D; /* Cor da parte rolável */
+    border-radius: 2px; /* Borda arredondada */
+}
+
+
+::-webkit-scrollbar-track {
+    background: #F0DEBB; /* Cor do fundo */
+    border-radius: 10px;
+}
