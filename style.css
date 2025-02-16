@@ -227,6 +227,12 @@ body{
     background-image: url(./assts/ap4-0.png);
 }
 
+.homes .carousel-inner .carousel-item:nth-child(5){
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./assts/ap5-0.png);
+}
+
 .acess-part{
     display: flex;
     flex-direction: column;
@@ -644,6 +650,14 @@ body{
         background-image: url(./assts/apartamentomob-3.png);
     }
     
+    .homes .carousel-inner .carousel-item:nth-child(4){
+        background-image: url(./assts/apartamentomob-4.png);
+    }
+
+    .homes .carousel-inner .carousel-item:nth-child(5){
+        background-image: url(./assts/apartamentomob-5.png);
+    }
+
     .acess-part{
         gap: 5px;
     }
